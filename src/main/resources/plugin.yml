@@ -1,0 +1,11 @@
+name: SurvivalSprint
+version: '1.0-SNAPSHOT'
+main: codes.towel.survivalSprint.SurvivalSprint
+api-version: '1.21'
+softdepend: [ "PlaceholderAPI" ]
+commands:
+  ss:
+    description: "survival sprint admin command"
+    usage: "/ss <subcommand>"
+    permission: survivalsprint.admin
+    permission-message: "Server is running SurvivalSprint | You don't have permission to use admin commands"
